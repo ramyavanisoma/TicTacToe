@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+body{
+  background:#edce9d;
+}
+header{
+  src: url('https://www.w3.org/Style/Examples/007/fonts.en.html');
+  text-align:center;
+ font-family: 'Pushster', cursive;
+  font-weight:bold;
+  font-size:40px;
+  margin:30px 0px 20px 0px;
+}
+p{
+   text-align:center;
+   font-size:25px;
+}
+.checkbox{
+  text-align:center;
+}
+#checkboxX{
+  margin:10px 10px 20px 30px;
+  border:1px solid #F00;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 255, .2);
+  background:blue;
+  height:20px;
+  width:20px;
+}
+#checkboxO{
+  margin:10px 10px 20px 30px;
+  border:1px solid #F00;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 255, .2);
+  background:blue;
+  height:20px;
+  width:20px;
+}
+#symbol{
+  font-size:25px;
+}
+#start {
+  position:center;
+  padding-top:7px;
+  padding-bottom:7px;
+   color: black;
+   text-align: center;
+   font-size: 25px;
+   width:10%;
+   cursor: pointer;
+  margin:30px 30px 30px 30px;
+}
+#start:hover {
+  font-size:30px;
+  color:#44025c;
+  
+}
+#timer{
+  color:#7a0410;
+  font-size:25px;
+  font-weight:bold;
+}
+#buttons-container{
+  position:relative;
+  margin-top:30px;
+  margin-bottom:30px;
+  background-color:white;
+  border-radius:20%;
+  height:300px;
+  width:400px;
+  box-shadow:5px 5px 5px 5px rgba(0, 0, 255, .2);
+   display: table;
+  padding:20px 30px 25px 25px;
+}
+#buttons #display{
+  position:absolute;
+  z-index: 999;
+}
+#display{
+   color:black;
+   font-size:20px;
+  padding-bottom:10px;
+  
+}
+
+.btn{
+  background-color:#aba9a7;
+  font-size:30px;
+  font-weight:bold;
+  height:70px;
+  width:100%;
+  box-shadow:5px 5px 5px 5px rgba(0, 0, 255, .2);
+  margin:10px;
+  display: table-cell;
+}
+#reset{
+  color:#3a393b;
+  position:relative;
+  font-size:20px;
+  border-radius:20%;
+  padding-left:15px;
+  padding-right:15px;
+}
+#reset:hover{
+  color:#3a393b;
+  background-color:#e9e6eb;
+}
+#reset:focus{
+ background-color:#d2cfd4;
+  border:2px solid #3a393b;
+  outline:black;
+}
+.disable-click{
+  pointer-events:none;
+}
+footer{
+  text-align:center;
+  margin-top:10%;
+  font-size:15px;
+}
